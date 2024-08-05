@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main ()
+{
+	int X,Y,Z;
+	
+	printf("Enter Two Numbers");
+	
+	scanf("%d %d", &X,&Y);
+	
+	Z = X+Y;
+	printf("sum is: %d",Z);
+	
+	Z = X-Y;
+	printf("\nsub is: %d",Z);
+	
+	Z = X*Y;
+	printf("\nmul is : %d",Z);
+	
+	Z = X/Y;
+	printf("\ndiv is: %d",Z);
+	
+	Z = X%Y;
+	printf("\nmod is: %d",Z);
+	
+	return 0;
+}
